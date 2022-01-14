@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.revolsys.open:com.revolsys.open.core:2011.11.07.RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/revolsys/open/com.revolsys.open.core/2011.11.07.RELEASE/com.revolsys.open.core-2011.11.07.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/revolsys/open/com.revolsys.open.core/2011.11.07.RELEASE/com.revolsys.open.core-2011.11.07.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/revolsys/open/com.revolsys.open.core/2011.11.07.RELEASE/com.revolsys.open.core-2011.11.07.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

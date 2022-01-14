@@ -1,0 +1,722 @@
+2021-12-27 17:00:57.388 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:00:57.397 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:00:57.400 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:00:57.529 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 14180 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:00:57.529 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:00:57.529 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:00:59.005 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:00:59.005 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:01:00.431 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:01:00.438 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:01:00.438 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:01:00.444 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:01:00.625 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:01:01.112 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:01:01.402 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:01:01.546 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:01:01.651 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:01:01.849 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:01:01.850 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:01:02.224 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:01:02.510 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:01:02.998 |-WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -| Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ESClientBuilder': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.elasticsearch.cluster_host' in value "${spring.elasticsearch.cluster_host}"
+2021-12-27 17:01:03.000 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown initiated...
+2021-12-27 17:01:03.008 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown completed.
+2021-12-27 17:01:03.046 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor -| class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2021-12-27 17:01:03.048 |-INFO  [main] org.apache.catalina.core.StandardService -| Stopping service [Tomcat]
+2021-12-27 17:01:03.068 |-ERROR [main] org.springframework.boot.SpringApplication -| Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ESClientBuilder': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.elasticsearch.cluster_host' in value "${spring.elasticsearch.cluster_host}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at com.inzyme.spatiotemporal.web.ai.AiApplication.main(AiApplication.java:26)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.elasticsearch.cluster_host' in value "${spring.elasticsearch.cluster_host}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 15 common frames omitted
+2021-12-27 17:02:14.236 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:02:14.242 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:02:14.244 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:02:14.356 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 11900 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:02:14.356 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:02:14.356 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:02:15.358 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:02:15.358 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:02:16.498 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:02:16.504 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:02:16.504 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:02:16.510 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:02:16.685 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:02:17.067 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:02:17.229 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:02:17.353 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:02:17.439 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:02:17.505 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:02:17.507 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:02:17.667 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:02:17.837 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:02:19.357 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:02:20.054 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:02:22.505 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:02:23.464 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:02:23.499 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:02:23.545 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:02:23.781 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:02:23.799 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 9.985 seconds (JVM running for 11.995)
+2021-12-27 17:02:23.801 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:04:19.377 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:04:20.018 |-ERROR [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.core.exception.handler.GlobalExceptionHandler -| 服务器内部异常,请稍后重试
+java.lang.NullPointerException: null
+	at com.inzyme.spatiotemporal.web.ai.util.EsUtil.eventsSaveOrUpdateDocs(EsUtil.java:56)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController.getAA(AipController.java:53)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$FastClassBySpringCGLIB$$5454a2ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.inzyme.spatiotemporal.web.core.permission.PermissionAspect.doAround(PermissionAspect.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$EnhancerBySpringCGLIB$$b4078069.getAA(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-27 17:09:59.158 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:09:59.163 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:09:59.166 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:09:59.280 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 9156 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:09:59.280 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:09:59.280 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:10:00.386 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:10:00.387 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:10:01.792 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:10:01.808 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:10:01.809 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:10:01.815 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:10:01.999 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:10:02.374 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:10:02.792 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:10:02.946 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:10:03.042 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:10:03.219 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:10:03.221 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:10:03.545 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:10:03.813 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:10:05.030 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:10:05.559 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:10:07.583 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:10:08.321 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:10:08.348 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:10:08.389 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:10:08.598 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:10:08.614 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 9.898 seconds (JVM running for 11.989)
+2021-12-27 17:10:08.616 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:10:49.886 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:10:50.118 |-ERROR [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.core.exception.handler.GlobalExceptionHandler -| 服务器内部异常,请稍后重试
+java.lang.NullPointerException: null
+	at com.inzyme.spatiotemporal.web.ai.util.EsUtil.eventsSaveOrUpdateDocs(EsUtil.java:56)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController.getAA(AipController.java:53)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$FastClassBySpringCGLIB$$5454a2ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.inzyme.spatiotemporal.web.core.permission.PermissionAspect.doAround(PermissionAspect.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$EnhancerBySpringCGLIB$$92f3f99f.getAA(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-27 17:12:06.743 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:12:06.749 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:12:06.751 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:12:06.877 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 4540 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:12:06.878 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:12:06.878 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:12:08.089 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:12:08.090 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:12:09.412 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:12:09.420 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:12:09.421 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:12:09.427 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:12:09.610 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:12:10.083 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:12:10.278 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:12:10.397 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:12:10.473 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:12:10.556 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:12:10.559 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:12:10.748 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:12:10.929 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:12:12.273 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:12:12.978 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:12:15.164 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:12:16.136 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:12:16.161 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:12:16.204 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:12:16.439 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:12:16.457 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 10.189 seconds (JVM running for 12.877)
+2021-12-27 17:12:16.460 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:12:27.767 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:13:39.013 |-WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool -| HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s502ms905µs600ns).
+2021-12-27 17:13:39.042 |-ERROR [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.core.exception.handler.GlobalExceptionHandler -| 服务器内部异常,请稍后重试
+java.lang.NullPointerException: null
+	at com.inzyme.spatiotemporal.web.ai.util.EsUtil.eventsSaveOrUpdateDocs(EsUtil.java:56)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController.getAA(AipController.java:53)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$FastClassBySpringCGLIB$$5454a2ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.inzyme.spatiotemporal.web.core.permission.PermissionAspect.doAround(PermissionAspect.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.inzyme.spatiotemporal.web.ai.controller.AipController$$EnhancerBySpringCGLIB$$d308070b.getAA(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter.doFilterInternal(JwtAuthenticationTokenFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-27 17:13:39.319 |-INFO  [Thread-20] org.apache.dubbo.spring.boot.context.event.AwaitingNonWebApplicationListener -|  [Dubbo] Current Spring Boot Application is about to shutdown...
+2021-12-27 17:13:39.431 |-INFO  [Thread-20] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown initiated...
+2021-12-27 17:13:39.440 |-INFO  [Thread-20] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown completed.
+2021-12-27 17:13:39.507 |-INFO  [Thread-20] org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor -| class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2021-12-27 17:13:40.725 |-INFO  [DubboShutdownHook] org.apache.dubbo.config.DubboShutdownHook -|  [DUBBO] Run shutdown hook now., dubbo version: 2.7.1, current host: 192.168.60.107
+2021-12-27 17:13:40.740 |-INFO  [DubboShutdownHook] org.apache.dubbo.registry.support.AbstractRegistryFactory -|  [DUBBO] Close all registries [], dubbo version: 2.7.1, current host: 192.168.60.107
+2021-12-27 17:14:53.774 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:14:53.779 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:14:53.782 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:14:53.897 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 10112 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:14:53.897 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:14:53.897 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:14:54.899 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:14:54.900 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:14:56.035 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:14:56.041 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:14:56.042 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:14:56.047 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:14:56.221 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:14:56.602 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:14:56.767 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:14:56.892 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:14:56.978 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:14:57.043 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:14:57.045 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:14:57.179 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:14:57.320 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:14:59.822 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:15:00.354 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:15:00.878 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:15:01.589 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:15:01.607 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:15:01.638 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:15:01.815 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:15:01.833 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.501 seconds (JVM running for 10.536)
+2021-12-27 17:15:01.835 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:15:07.848 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:15:09.606 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/_bulk?timeout=1m] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in bulk requests is deprecated."]
+2021-12-27 17:15:09.881 |-INFO  [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.ai.util.EsUtil -| 索引:onPlay,批量插入4条数据成功!
+2021-12-27 17:40:53.923 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:40:53.929 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:40:53.932 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:40:54.020 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 17268 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:40:54.020 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:40:54.020 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:40:55.752 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:40:55.753 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:40:57.687 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:40:57.694 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:40:57.695 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:40:57.700 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:40:57.884 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:40:58.417 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:40:58.804 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:40:58.991 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:40:59.089 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:40:59.203 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:40:59.205 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:40:59.919 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:41:00.326 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:41:03.841 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:41:08.016 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:41:09.439 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:41:10.500 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:41:10.521 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:41:10.580 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:41:10.790 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:41:10.806 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 17.312 seconds (JVM running for 19.387)
+2021-12-27 17:41:10.809 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:43:04.458 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:43:06.989 |-INFO  [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.ai.util.EsUtil -| 索引:onPlay,批量插入4条数据成功!
+2021-12-27 17:48:56.878 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:48:56.886 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:48:56.890 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:48:57.010 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 11468 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:48:57.010 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:48:57.010 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:48:58.310 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:48:58.310 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:48:59.783 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:48:59.801 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:48:59.801 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:48:59.806 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:48:59.988 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:49:00.380 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:49:00.619 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:49:00.742 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:49:00.819 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:49:00.960 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:49:00.962 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:49:01.234 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:49:01.416 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:49:04.016 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:49:04.569 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:49:05.108 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:49:05.893 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:49:05.918 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:49:05.952 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:49:06.149 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:49:06.166 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 9.89 seconds (JVM running for 12.033)
+2021-12-27 17:49:06.168 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:49:28.093 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:49:28.961 |-INFO  [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.ai.util.EsUtil -| 索引:onPlay,批量插入4条数据成功!
+2021-12-27 17:53:32.693 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:53:32.699 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:53:32.702 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:53:32.822 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 11892 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:53:32.822 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:53:32.822 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:53:33.879 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:53:33.880 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:53:35.096 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:53:35.104 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:53:35.104 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:53:35.110 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:53:35.286 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:53:35.676 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:53:35.843 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:53:35.964 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:53:36.047 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:53:36.114 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:53:36.115 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:53:36.252 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:53:36.397 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:53:38.952 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:53:39.487 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:53:40.021 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:53:40.746 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:53:40.765 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:53:40.796 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:53:40.971 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:53:40.988 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.749 seconds (JVM running for 10.9)
+2021-12-27 17:53:40.990 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:53:49.236 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:53:49.571 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/_bulk?timeout=1m] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in bulk requests is deprecated."]
+2021-12-27 17:53:49.643 |-INFO  [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.ai.util.EsUtil -| 索引:onPlay,批量插入4条数据成功!
+2021-12-27 17:57:50.048 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-27 17:57:50.055 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-27 17:57:50.059 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-27 17:57:50.186 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 3024 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-27 17:57:50.187 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-27 17:57:50.187 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-27 17:57:51.198 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-27 17:57:51.199 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-27 17:57:52.338 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:57:52.345 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-27 17:57:52.345 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-27 17:57:52.351 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-27 17:57:52.525 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-27 17:57:52.906 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-27 17:57:53.072 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-27 17:57:53.191 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-27 17:57:53.271 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-27 17:57:53.337 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-27 17:57:53.338 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-27 17:57:53.471 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-27 17:57:53.614 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-27 17:57:56.181 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 17:57:56.716 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-27 17:57:57.245 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-27 17:57:57.977 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-27 17:57:57.995 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-27 17:57:58.027 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-27 17:57:58.204 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-27 17:57:58.222 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.65 seconds (JVM running for 10.791)
+2021-12-27 17:57:58.224 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-27 17:58:04.128 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 17:58:04.662 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/_bulk?timeout=1m] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in bulk requests is deprecated."]
+2021-12-27 17:58:04.674 |-INFO  [http-nio-9531-exec-1] com.inzyme.spatiotemporal.web.ai.util.EsUtil -| 索引:onPlay,批量插入4条数据成功!

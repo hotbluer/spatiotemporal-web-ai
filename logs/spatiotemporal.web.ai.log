@@ -1,0 +1,161 @@
+2021-12-28 10:48:55.627 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-28 10:48:55.636 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-28 10:48:55.639 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-28 10:48:55.860 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 9936 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-28 10:48:55.860 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-28 10:48:55.860 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-28 10:48:57.974 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-28 10:48:57.975 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-28 10:48:59.841 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:48:59.850 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-28 10:48:59.850 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-28 10:48:59.855 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-28 10:49:00.083 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-28 10:49:00.755 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-28 10:49:01.118 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-28 10:49:01.291 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-28 10:49:01.386 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-28 10:49:01.574 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-28 10:49:01.575 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-28 10:49:01.891 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-28 10:49:02.221 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-28 10:49:05.158 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 10:49:05.793 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-28 10:49:06.526 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-28 10:49:07.431 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-28 10:49:07.453 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-28 10:49:07.496 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-28 10:49:07.753 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:49:07.772 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 12.717 seconds (JVM running for 14.951)
+2021-12-28 10:49:07.774 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-28 10:49:15.726 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-28 10:49:16.847 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:51:13.525 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-28 10:51:13.530 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-28 10:51:13.533 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-28 10:51:13.645 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 14380 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-28 10:51:13.645 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-28 10:51:13.645 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-28 10:51:14.807 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-28 10:51:14.808 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-28 10:51:16.062 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:51:16.070 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-28 10:51:16.070 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-28 10:51:16.075 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-28 10:51:16.246 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-28 10:51:16.619 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-28 10:51:16.811 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-28 10:51:16.937 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-28 10:51:17.017 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-28 10:51:17.168 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-28 10:51:17.169 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-28 10:51:17.429 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-28 10:51:17.734 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-28 10:51:20.260 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 10:51:20.780 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-28 10:51:21.295 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-28 10:51:22.030 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-28 10:51:22.051 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-28 10:51:22.083 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-28 10:51:22.267 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:51:22.284 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 9.195 seconds (JVM running for 11.153)
+2021-12-28 10:51:22.287 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-28 10:51:31.467 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-28 10:51:32.823 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:54:44.922 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-28 10:54:44.927 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-28 10:54:44.930 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-28 10:54:45.044 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 10300 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-28 10:54:45.044 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-28 10:54:45.044 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-28 10:54:46.014 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-28 10:54:46.015 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-28 10:54:47.111 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:54:47.118 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-28 10:54:47.118 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-28 10:54:47.123 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-28 10:54:47.289 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-28 10:54:47.660 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-28 10:54:47.819 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-28 10:54:47.940 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-28 10:54:48.019 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-28 10:54:48.082 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-28 10:54:48.084 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-28 10:54:48.212 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-28 10:54:48.357 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-28 10:54:50.670 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 10:54:51.179 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-28 10:54:51.710 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-28 10:54:52.449 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-28 10:54:52.467 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-28 10:54:52.498 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-28 10:54:52.673 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:54:52.690 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.186 seconds (JVM running for 10.258)
+2021-12-28 10:54:52.693 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-28 10:55:33.326 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-28 10:55:33.714 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:56:31.898 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:57:28.623 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-28 10:57:28.628 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-28 10:57:28.630 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-28 10:57:28.744 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 8608 (D:\AI_pig\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AI_pig\AIzhu\spatiotemporal-web-ai)
+2021-12-28 10:57:28.744 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-28 10:57:28.744 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-28 10:57:29.766 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-28 10:57:29.767 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-28 10:57:30.910 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:57:30.916 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-28 10:57:30.916 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-28 10:57:30.921 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;C:\Users\86132\AppData\Roaming\npm;.]
+2021-12-28 10:57:31.095 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-28 10:57:31.460 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-28 10:57:31.620 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-28 10:57:31.741 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-28 10:57:31.820 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-28 10:57:31.882 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-28 10:57:31.884 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-28 10:57:32.014 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-28 10:57:32.157 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-28 10:57:34.489 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 10:57:35.004 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-28 10:57:35.518 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-28 10:57:36.225 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-28 10:57:36.243 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-28 10:57:36.273 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-28 10:57:36.441 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-28 10:57:36.458 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.278 seconds (JVM running for 10.299)
+2021-12-28 10:57:36.461 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-28 10:57:44.052 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-28 10:57:44.360 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:57:57.040 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:58:07.446 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 10:58:25.337 |-WARN  [I/O dispatcher 1] org.elasticsearch.client.RestClient -| request [POST http://127.0.0.1:9200/onplay/kingWz/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.0.0-b7e28a7 "[types removal] Specifying types in search requests is deprecated."]
+2021-12-28 13:44:21.199 |-WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool -| HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h11m48s773ms888µs401ns).

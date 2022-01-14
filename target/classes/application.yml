@@ -1,0 +1,55 @@
+#Rest服务器配置
+server:
+  port: 9531
+  context-path: /
+  session-timeout: 60
+
+#Spring配置
+spring:
+  profiles:
+    active: dev
+  
+  #HikariCP连接池
+  hikari:
+    idleTimeout: 60000
+    connectionTimeout: 30000
+    maxLifetime: 300000
+    minimumIdle: 5
+    maximumPoolSize: 10
+    connectionTestQuery: SELECT 1
+    poolName: HikariCP
+
+mybatis-plus:
+#  mapper-locations: classpath:com/inzyme/spatiotemporal/web/**/*Mapper.xml
+  mapper-locations: classpath:mapper/**/*Mapper.xml
+  #mybatis
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.inzyme.spatiotemporal.web.ai.domain.entity
+  global-config:
+    # 数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: ID_WORKER
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: NOT_EMPTY
+      #驼峰下划线转换
+      column-underline: true
+      #数据库大写下划线转换
+      #capital-mode: true
+      #逻辑删除配置
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      db-type: mysql
+      meta-object-handler: com.inzyme.spatiotemporal.web.core.config.mybatis.AutoFillEntityHandler
+    #刷新mapper 调试神器
+    refresh: false
+  # 原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+  #分页配置
+  pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql

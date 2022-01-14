@@ -1,0 +1,443 @@
+2021-12-17 14:20:29.711 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-17 14:20:29.722 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-17 14:20:29.725 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-17 14:20:29.986 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 15144 (D:\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AIzhu\spatiotemporal-web-ai)
+2021-12-17 14:20:29.986 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-17 14:20:29.986 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-17 14:20:31.255 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-17 14:20:31.255 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-17 14:20:32.686 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:20:32.696 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-17 14:20:32.697 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-17 14:20:32.709 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\Xftp7\;D:\Program Files\Xshell7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;;.]
+2021-12-17 14:20:32.902 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-17 14:20:33.247 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-17 14:20:33.453 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-17 14:20:33.570 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-17 14:20:33.695 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-17 14:20:33.885 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-17 14:20:33.886 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-17 14:20:34.192 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-17 14:20:34.443 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-17 14:20:35.491 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 14:20:35.551 |-WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext -| Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/F:/maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/F:/maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'aipController' method 
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+to {POST /app/aip/count}: There is already 'aipController' bean method
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig2(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile) mapped.
+2021-12-17 14:20:35.554 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown initiated...
+2021-12-17 14:20:35.559 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown completed.
+2021-12-17 14:20:35.572 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor -| class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2021-12-17 14:20:35.573 |-INFO  [main] org.apache.catalina.core.StandardService -| Stopping service [Tomcat]
+2021-12-17 14:20:35.591 |-ERROR [main] org.springframework.boot.SpringApplication -| Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/F:/maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/F:/maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'aipController' method 
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+to {POST /app/aip/count}: There is already 'aipController' bean method
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig2(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at com.inzyme.spatiotemporal.web.ai.AiApplication.main(AiApplication.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/F:/maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'aipController' method 
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+to {POST /app/aip/count}: There is already 'aipController' bean method
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig2(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1463)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1427)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'aipController' method 
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+to {POST /app/aip/count}: There is already 'aipController' bean method
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig2(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1463)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1427)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'aipController' method 
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+to {POST /app/aip/count}: There is already 'aipController' bean method
+public com.inzyme.spatiotemporal.web.core.domain.vo.ReturnVO<java.util.List<int[][]>> com.inzyme.spatiotemporal.web.ai.controller.AipController.count4pig2(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 48 common frames omitted
+2021-12-17 14:21:27.627 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-17 14:21:27.634 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-17 14:21:27.636 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-17 14:21:27.756 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 12152 (D:\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AIzhu\spatiotemporal-web-ai)
+2021-12-17 14:21:27.756 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-17 14:21:27.756 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-17 14:21:28.682 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-17 14:21:28.682 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-17 14:21:29.726 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:21:29.733 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-17 14:21:29.733 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-17 14:21:29.738 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\Xftp7\;D:\Program Files\Xshell7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;;.]
+2021-12-17 14:21:29.869 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-17 14:21:30.190 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-17 14:21:30.344 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-17 14:21:30.456 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-17 14:21:30.527 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-17 14:21:30.602 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-17 14:21:30.604 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-17 14:21:30.713 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-17 14:21:30.840 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-17 14:21:31.847 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 14:21:32.478 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-17 14:21:33.043 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-17 14:21:34.043 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-17 14:21:34.067 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-17 14:21:34.100 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-17 14:21:34.269 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:21:34.278 |-ERROR [main] org.apache.catalina.util.LifecycleBase -| Failed to start component [Connector[HTTP/1.1-9531]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at com.inzyme.spatiotemporal.web.ai.AiApplication.main(AiApplication.java:26)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 12 common frames omitted
+2021-12-17 14:21:34.283 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Pausing ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:21:34.283 |-INFO  [main] org.apache.catalina.core.StandardService -| Stopping service [Tomcat]
+2021-12-17 14:21:34.287 |-INFO  [main] org.apache.catalina.util.LifecycleBase -| The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2021-12-17 14:21:34.287 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Stopping ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:21:34.287 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Destroying ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:21:34.293 |-ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -| 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9531 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9531, or configure this application to listen on another port.
+
+2021-12-17 14:21:34.294 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.AwaitingNonWebApplicationListener -|  [Dubbo] Current Spring Boot Application is about to shutdown...
+2021-12-17 14:21:34.302 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown initiated...
+2021-12-17 14:21:34.304 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Shutdown completed.
+2021-12-17 14:21:34.314 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor -| class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2021-12-17 14:21:34.699 |-INFO  [DubboShutdownHook] org.apache.dubbo.config.DubboShutdownHook -|  [DUBBO] Run shutdown hook now., dubbo version: 2.7.1, current host: 192.168.60.140
+2021-12-17 14:21:34.701 |-INFO  [DubboShutdownHook] org.apache.dubbo.registry.support.AbstractRegistryFactory -|  [DUBBO] Close all registries [], dubbo version: 2.7.1, current host: 192.168.60.140
+2021-12-17 14:22:41.959 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-17 14:22:41.964 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-17 14:22:41.966 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-17 14:22:42.094 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 2212 (D:\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AIzhu\spatiotemporal-web-ai)
+2021-12-17 14:22:42.094 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-17 14:22:42.094 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-17 14:22:42.994 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-17 14:22:42.995 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-17 14:22:43.994 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:22:44.000 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-17 14:22:44.000 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-17 14:22:44.006 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\Xftp7\;D:\Program Files\Xshell7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;;.]
+2021-12-17 14:22:44.124 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-17 14:22:44.426 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-17 14:22:44.556 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-17 14:22:44.655 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-17 14:22:44.718 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-17 14:22:44.782 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-17 14:22:44.784 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-17 14:22:44.919 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-17 14:22:45.066 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-17 14:22:45.969 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 14:22:46.487 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-17 14:22:46.924 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-17 14:22:47.695 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-17 14:22:47.710 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-17 14:22:47.735 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-17 14:22:47.883 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-17 14:22:47.903 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 6.333 seconds (JVM running for 7.654)
+2021-12-17 14:22:47.905 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-17 14:23:16.000 |-INFO  [http-nio-9531-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 14:24:10.737 |-INFO  [http-nio-9531-exec-2] io.lettuce.core.EpollProvider -| Starting without optional epoll library
+2021-12-17 14:24:10.758 |-INFO  [http-nio-9531-exec-2] io.lettuce.core.KqueueProvider -| Starting without optional kqueue library
+2021-12-17 14:24:13.882 |-INFO  [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.util.HttpUtil -| [POST] result:{'log_id': 324511388451267631, 'results': [{'name': 'card', 'score': 0.9874653, 'location': {'left': 313, 'top': 265, 'width': 84, 'height': 54}}, {'name': 'pig', 'score': 0.96901137, 'location': {'left': 73, 'top': 199, 'width': 1058, 'height': 309}}]}
+2021-12-17 14:24:14.064 |-WARN  [http-nio-9531-exec-2] it.geosolutions.imageio.gdalframework -| Failed to load the GDAL native libs. This is not a problem unless you need to use the GDAL plugins: they won't be enabled.
+java.lang.UnsatisfiedLinkError: no gdaljni in java.library.path
+2021-12-17 14:24:14.239 |-INFO  [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 card ，其外接矩形长：84px， 宽：54px.
+2021-12-17 14:24:17.085 |-INFO  [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：1058px， 宽：309px.
+2021-12-17 14:24:17.125 |-INFO  [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 用于检查的外接矩形图已生到 c:\portal\ai\6e4dbd93-98c5-408d-8495-0cb8fad8a0ee_verify.jpg ，请查看。
+2021-12-17 14:24:17.202 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.AiDictAgeWeightDao.queryByMainTypeWeight -| ==>  Preparing: select age, weight from ai_dict_age_weight where main_type = ? and is_deleted = 0 ORDER BY abs(? - weight) LIMIT 1 
+2021-12-17 14:24:17.219 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.AiDictAgeWeightDao.queryByMainTypeWeight -| ==> Parameters: pig(String), 32.0(Double)
+2021-12-17 14:24:17.235 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.AiDictAgeWeightDao.queryByMainTypeWeight -| <==      Total: 1
+2021-12-17 14:24:17.236 |-INFO  [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 测算成功 - 牲畜类型:pig, imgId:p20211217142417128001, 体长:107.7cm, 体重:32.0kg, 畜龄:71日.
+2021-12-17 14:24:17.629 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.MeasureLogDao.insert -| ==>  Preparing: INSERT INTO ai_measure_log ( id, app_id, img_id, main_type, main_width, main_height, refer_type, refer_width, refer_height, op_res, create_user, create_time, update_user, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-12-17 14:24:17.630 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.MeasureLogDao.insert -| ==> Parameters: 1471727934518452225(Long), E53292F3DC0B3B9EBB8E2AAD20B666734BE44EC458C7BC623EE892A1B700DC65(String), p20211217142417128001(String), pig(String), 1058(Integer), 309(Integer), card(String), 84(Integer), 54(Integer), 0(Integer), AI(String), 2021-12-17 14:24:17.13(Timestamp), null, null
+2021-12-17 14:24:17.632 |-DEBUG [http-nio-9531-exec-2] com.inzyme.spatiotemporal.web.ai.dao.MeasureLogDao.insert -| <==    Updates: 1
+2021-12-17 14:53:11.342 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.util.HttpUtil -| [POST] result:{'log_id': 339953917729088584, 'results': [{'name': 'pig', 'score': 0.94289005, 'location': {'left': 119, 'top': 143, 'width': 143, 'height': 87}}, {'name': 'pig', 'score': 0.9335019, 'location': {'left': 85, 'top': 195, 'width': 211, 'height': 146}}, {'name': 'pig', 'score': 0.845035, 'location': {'left': 179, 'top': 234, 'width': 193, 'height': 137}}, {'name': 'pig', 'score': 0.7882589, 'location': {'left': 298, 'top': 145, 'width': 50, 'height': 70}}, {'name': 'pig', 'score': 0.7710809, 'location': {'left': 478, 'top': 248, 'width': 147, 'height': 87}}, {'name': 'pig', 'score': 0.5453155, 'location': {'left': 237, 'top': 133, 'width': 42, 'height': 42}}, {'name': 'pig', 'score': 0.4242862, 'location': {'left': 189, 'top': 117, 'width': 36, 'height': 42}}]}
+2021-12-17 14:53:11.443 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：143px， 宽：87px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：211px， 宽：146px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：193px， 宽：137px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：50px， 宽：70px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：147px， 宽：87px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：42px， 宽：42px.
+2021-12-17 14:53:11.446 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 原图中发现 pig ，其外接矩形长：36px， 宽：42px.
+2021-12-17 14:53:11.456 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 用于检查的外接矩形图已生到 c:\portal\ai\9b636348-e2a7-4ea4-9f00-0b163fb36150_cntverify.jpg ，请查看。
+2021-12-17 14:53:11.457 |-INFO  [http-nio-9531-exec-3] com.inzyme.spatiotemporal.web.ai.service.impl.AipServiceImpl -| 智能点数（猪）完成，共计 7 头。
+2021-12-17 16:37:26.119 |-WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool -| HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s349ms972µs400ns).
+2021-12-17 16:38:34.392 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-17 16:38:34.404 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-17 16:38:34.406 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-17 16:38:34.574 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 19588 (D:\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AIzhu\spatiotemporal-web-ai)
+2021-12-17 16:38:34.574 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-17 16:38:34.574 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-17 16:38:35.890 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-17 16:38:35.890 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-17 16:38:37.171 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-17 16:38:37.177 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-17 16:38:37.178 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-17 16:38:37.183 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\Xftp7\;D:\Program Files\Xshell7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;;.]
+2021-12-17 16:38:37.318 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-17 16:38:37.653 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-17 16:38:37.883 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-17 16:38:37.983 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-17 16:38:38.066 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-17 16:38:38.207 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-17 16:38:38.208 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-17 16:38:38.511 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-17 16:38:38.733 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-17 16:38:39.866 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 16:38:40.437 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-17 16:38:40.922 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-17 16:38:41.791 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-17 16:38:41.819 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-17 16:38:41.849 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-17 16:38:42.016 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-17 16:38:42.038 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.109 seconds (JVM running for 9.445)
+2021-12-17 16:38:42.040 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-17 17:47:29.721 |-INFO  [main] org.apache.dubbo.common.logger.LoggerFactory -| using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2021-12-17 17:47:29.727 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.WelcomeLogoApplicationListener -| 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2021-12-17 17:47:29.729 |-INFO  [main] org.apache.dubbo.spring.boot.context.event.OverrideDubboConfigApplicationListener -| Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2021-12-17 17:47:29.849 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Starting AiApplication on DESKTOP-67NDCFF with PID 7852 (D:\AIzhu\spatiotemporal-web-ai\target\classes started by 86132 in D:\AIzhu\spatiotemporal-web-ai)
+2021-12-17 17:47:29.850 |-DEBUG [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2021-12-17 17:47:29.850 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| The following profiles are active: dev
+2021-12-17 17:47:30.768 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2021-12-17 17:47:30.768 |-INFO  [main] org.apache.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar -| The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2021-12-17 17:47:31.952 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Initializing ProtocolHandler ["http-nio-9531"]
+2021-12-17 17:47:31.959 |-INFO  [main] org.apache.catalina.core.StandardService -| Starting service [Tomcat]
+2021-12-17 17:47:31.959 |-INFO  [main] org.apache.catalina.core.StandardEngine -| Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-12-17 17:47:31.965 |-INFO  [main] org.apache.catalina.core.AprLifecycleListener -| The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\erl-23.3.4\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\OpenVPN\bin;D:\Program Files\Xftp7\;D:\Program Files\Xshell7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\86132\AppData\Local\Microsoft\WindowsApps;;.]
+2021-12-17 17:47:32.099 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -| Initializing Spring embedded WebApplicationContext
+2021-12-17 17:47:32.505 |-DEBUG [main] com.inzyme.spatiotemporal.web.core.security.JwtAuthenticationTokenFilter -| Filter 'jwtAuthenticationTokenFilter' configured for use
+2021-12-17 17:47:32.757 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Starting...
+2021-12-17 17:47:32.909 |-INFO  [main] com.zaxxer.hikari.HikariDataSource -| HikariPool-1 - Start completed.
+2021-12-17 17:47:33.014 |-INFO  [main] org.hibernate.jpa.internal.util.LogHelper -| HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-17 17:47:33.161 |-INFO  [main] org.hibernate.Version -| HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-17 17:47:33.162 |-INFO  [main] org.hibernate.cfg.Environment -| HHH000206: hibernate.properties not found
+2021-12-17 17:47:33.400 |-INFO  [main] org.hibernate.annotations.common.Version -| HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-17 17:47:33.586 |-INFO  [main] org.hibernate.dialect.Dialect -| HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-17 17:47:34.998 |-WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration -| spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 17:47:35.580 |-INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-17 17:47:36.469 |-INFO  [main] org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor -| The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2021-12-17 17:47:37.662 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Context refreshed
+2021-12-17 17:47:37.688 |-INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -| Found 1 custom documentation plugin(s)
+2021-12-17 17:47:37.718 |-INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -| Scanning for api listing references
+2021-12-17 17:47:37.967 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol -| Starting ProtocolHandler ["http-nio-9531"]
+2021-12-17 17:47:38.035 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| Started AiApplication in 8.702 seconds (JVM running for 9.895)
+2021-12-17 17:47:38.038 |-INFO  [main] com.inzyme.spatiotemporal.web.ai.AiApplication -| 启动成功! Swagger2: http://127.0.0.1:9531/swagger-ui.html
+2021-12-17 18:04:04.616 |-WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool -| HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s333ms197µs700ns).
+2021-12-17 18:08:41.285 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:08:42.169 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:08:44.205 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:08:47.199 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:08:52.264 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:09:01.297 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:09:18.396 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:09:51.475 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:10:56.531 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:13:05.672 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:17:22.741 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:37:35.785 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:40:36.921 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:43:37.847 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:46:38.937 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 18:49:39.996 |-WARN  [RMI TCP Accept-0] sun.rmi.transport.tcp -| RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58764] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)

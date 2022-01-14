@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "name": "spring.system",
+      "type": "com.inzyme.spatiotemporal.web.ai.config.SysConfig",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.system.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.auth-host",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.body-length-rpc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.count-pig-rpc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.count-pig-threshold",
+      "type": "java.lang.Float",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.draw-rect",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.ocr-api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.ocr-number-rpc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.ocr-securet-key",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.output-folder",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.pig-count-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.pig-size-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.request-expire",
+      "type": "java.lang.Integer",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.securet-key",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.threshold",
+      "type": "java.lang.Float",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.threshold2",
+      "type": "java.lang.Float",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    },
+    {
+      "name": "spring.system.verify-idcard-rpc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.inzyme.spatiotemporal.web.ai.config.SysConfig"
+    }
+  ],
+  "hints": []
+}

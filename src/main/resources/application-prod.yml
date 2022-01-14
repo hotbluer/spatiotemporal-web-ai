@@ -1,0 +1,95 @@
+###异步消息队列配置
+#async:
+#  mq:
+#    service-name: web-ai
+#    provider: rabbitmq
+#    min-threads: 10
+#    max-threads: 20
+#    serializer: jsonSerializer
+#    rabbitmq:
+#      host: 192.168.59.63
+#      port: 5672
+#      username: rabbitadmin
+#      password: 123456    
+#      virtual-host: spatiotemporal
+#      cache-size: 100
+#      publisher-returns: true
+#      publisher-confirms: true
+#
+#    # appId用来标识业务方，也用来限定该应用监听此专用队列  
+#    appId: spatiotemporal-web-ai
+#    threads: 10
+#    provider: RabbitMQ
+#    host: 192.168.59.63
+##    host: localhost
+#    port: 5672
+#    username: rabbitadmin
+#    password: 123456
+#    rabbit:
+#      virtualhost: spatiotemporal
+#      cacheSize: 100
+#      exchange: st.topic.exchange
+#      routingKey: async.example
+#      publisherReturns: true
+#      publisherConfirms: true
+#      listenerConcurrency: 5
+#      listenerMaxConcurrency: 10
+#      listenerRetryEnabled: true
+#      listenerAcknowledgeMode: manual
+
+spring: 
+  datasource:
+    url: jdbc:mysql://192.168.59.207:3306/spatiotemporal?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: inzY@2016
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+  # redis配置，以下有默认配置的也可以使用默认配置
+  redis:
+    host: 192.168.59.69
+    port: 6379
+    password: xc@IOV2016
+    pool:
+      max-active: 8
+      max-wait: 1
+      max-idle: 8
+      min-idle: 0
+      timeout: 3000
+  
+  servlet: 
+        multipart: 
+           enabled: true
+           max-file-size: 4MB
+           max-request-size: 50MB
+      
+  system: 
+    appId: 7f4ROLF8Ed4A0e4I3yZC05aW
+    authHost: https://aip.baidubce.com/oauth/2.0/token
+    # ak, sk 真实上线后需换成公司帐号对应信息
+    apiKey: 8oDgQxDEGkEBQsn2w5ucHHYI
+    securetKey: Ix1ilfue1N55dmVilXfbKWYj5PxRI5fW
+    bodyLengthRpcUrl: https://aip.baidubce.com/rpc/2.0/ai_custom/v1/detection/body_length
+    verifyIdcardRpcUrl: https://aip.baidubce.com/rpc/2.0/ai_custom/v1/classification/verify_Idcard
+    threshold: 0.8
+#    outputFolder: c:\\portal\\ai\\
+    outputFolder: z:\\portal\\ai\\
+    drawRect: true
+    
+#dubbo:
+#    application:
+#        name: example-cunsumer
+#    scan:
+#        base-packages: com.inzyme.spatiotemporal.web.ai.service
+#
+#    protocol:
+#        name: dubbo
+#        port: 20884
+#    registry:
+#        address: zookeeper://inzyme.org:2181
+   
+server: 
+  tomcat: 
+    max-swallow-size: 55MB
+    
+security:
+  mode: disable

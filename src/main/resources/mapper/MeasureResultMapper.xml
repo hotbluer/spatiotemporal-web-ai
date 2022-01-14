@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.inzyme.spatiotemporal.web.ai.dao.MeasureResultDao">
+   <select id="queryByImgId"  parameterType="string" resultType="com.inzyme.spatiotemporal.web.ai.domain.entity.MeasureResult">
+   			select id, img_id, main_type, length, weight, age, correct_length, correct_weight, correct_age, 
+                             img_file, version, is_deleted, tenant_id, create_user, create_time, update_user, update_time
+            from ai_measure_result where img_id = #{imgId}  and is_deleted = 0 
+   </select>
+   
+    <update id="updateForImgId">
+			update ai_measure_result set correct_length = #{length}, correct_weight = #{weight}, correct_age = #{age}, update_user = 'AI', update_time = now()
+			where img_id = #{imgId}
+     </update>
+</mapper>

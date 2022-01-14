@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="600 seconds">
+	
+	<property name="APP_ID" value="spatiotemporal.web.ai" />
+	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c -| %msg%n" />
+	<property name="DEV_FILE_PATH" value="${user.dir}/logs" />
+	<property name="PROD_FILE_PATH" value="/opt/inzy/spatiotemporal/logs" />
+	
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="UTF-8">
+			<pattern>${PATTERN}</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="DEV_FILEOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">	
+		<file>${DEV_FILE_PATH}/${APP_ID}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 文件名称 -->
+			<fileNamePattern>${DEV_FILE_PATH}/${APP_ID}.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<!-- 文件最大保存历史数量 -->
+			<MaxHistory>100</MaxHistory>
+		</rollingPolicy>
+		
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>${PATTERN}</pattern>
+		</layout>
+	</appender>	
+	
+	<springProfile name="prod">
+		<appender name="PROD_FILEOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">	
+			<file>${PROD_FILE_PATH}/${APP_ID}.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<!-- 文件名称 -->
+				<fileNamePattern>${PROD_FILE_PATH}/${APP_ID}.%d{yyyy-MM-dd}.log</fileNamePattern>
+				<!-- 文件最大保存历史数量 -->
+				<MaxHistory>100</MaxHistory>
+			</rollingPolicy>
+			
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+	</springProfile>
+	
+	<logger name="org.springframework" level="WARN"/>
+
+	<!-- 开发环境 -->
+	<springProfile name="dev">		
+		<logger name="com.inzyme.spatiotemporal" level="debug"/>
+		<root level="info">		
+			<appender-ref ref="CONSOLE" />
+			<appender-ref ref="DEV_FILEOUT" />
+		</root>
+	</springProfile>
+	
+	<!-- 生产环境 -->
+	<springProfile name="prod">		
+		<logger name="com.inzyme.spatiotemporal" level="info"/>
+		<root level="warn">		
+			<appender-ref ref="CONSOLE" />
+			<appender-ref ref="PROD_FILEOUT" />
+		</root>
+	</springProfile>	
+</configuration>

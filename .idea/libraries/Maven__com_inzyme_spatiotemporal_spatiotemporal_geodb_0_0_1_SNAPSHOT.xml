@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.inzyme.spatiotemporal:spatiotemporal-geodb:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inzyme/spatiotemporal/spatiotemporal-geodb/0.0.1-SNAPSHOT/spatiotemporal-geodb-0.0.1-20210813.073052-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inzyme/spatiotemporal/spatiotemporal-geodb/0.0.1-SNAPSHOT/spatiotemporal-geodb-0.0.1-20210813.073052-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inzyme/spatiotemporal/spatiotemporal-geodb/0.0.1-SNAPSHOT/spatiotemporal-geodb-0.0.1-20210813.073052-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
